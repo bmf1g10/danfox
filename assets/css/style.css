@@ -110,6 +110,7 @@ nav.navbar.bootsnav.no-background {
     border: none;
 }
 
+
 nav.navbar.bootsnav {
     background-color: #fff;
     border-bottom: transparent;
@@ -185,6 +186,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*-------------------------------------
         3.  Welcome-hero
 --------------------------------------*/
+
 .welcome-hero{
     display: flex;
     align-items: center;
@@ -195,6 +197,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     background-position: center;
     height:890px;
 }
+@media screen and (max-width: 1023px) {
+    .welcome-hero {
+        background:none; /* Hide the background image when the width is less than 1024px */
+    }
+  }
+
+
+
 .welcome-hero:before{
     position:absolute;
     content: " ";

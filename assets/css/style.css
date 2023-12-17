@@ -197,15 +197,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     background-position: center;
     height:890px;
 }
-/*
-@media screen and (max-width: 1023px) {
-    .welcome-hero {
-        background:none; /* Hide the background image when the width is less than 1024px */
-    }
-  }
-*/
-
-
 
 .welcome-hero:before{
     position:absolute;

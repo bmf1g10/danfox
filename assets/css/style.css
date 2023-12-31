@@ -281,19 +281,17 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*.single-about-txt*/
 
 /*.single-about-img-small */
-.single-about-img-small{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
-.single-about-img-small:before {
-    position:  absolute;
-    content: " ";
-    top: 0;
-    left:  0;
-    width: 109%;
-    height:  100%;
-    background: rgba(31,44,108,.3);
+.single-about-img-small{
+    position: relative;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 90%;     
 }
-.single-about-img-small img {
-    max-width: 500px;
-    height: 129px;
+
+.single-about-img-small img {    
+    
 }
 /*.single-about-img-small */
 

@@ -289,10 +289,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     margin-top: 10%;
     width: 90%;     
 }
-
-.single-about-img-small img {    
-    
-}
 /*.single-about-img-small */
 
 /*.single-about-img */
@@ -394,9 +390,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*-------------------------------------
         6.  Skills
 --------------------------------------*/
-.skills {
-    
-}
 .skill-content{padding: 50px 0 80px;}
 .single-skill-content{padding-top: 100px;}
 .section-heading h2 {
@@ -709,6 +702,27 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     height: auto;
     border-radius:0;
 }
+
+.clients-text-aligned{
+    display: flex;
+    align-items: center;
+}
+
+.clients-text-aligned > img {
+    margin-right: 10px;   
+    width: 100px; 
+    margin-bottom: 10px;
+}
+
+.clients-images {
+    margin-top:20px;
+}
+
+
+.clients-images .item {
+    margin: 5px 5px 5px 5px;        
+}
+
 
 /*-------------------------------------
         11. Contact

@@ -262,6 +262,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     padding: 35px 0 43px;
     border-bottom: 1px solid #999fb3;
 }
+.emphasized { 
+    font-style: italic; 
+}
+.bold{
+    font-weight: bold;
+}
+
 .single-about-add-info {
     margin: 35px 0;
 }

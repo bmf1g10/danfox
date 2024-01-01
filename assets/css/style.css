@@ -197,6 +197,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     background-position: center;
     height:890px;
 }
+@media only screen and (max-width: 479px) and (min-width: 0px) {
+    .welcome-hero {
+        background: none;
+    }
+}
 
 .welcome-hero:before{
     position:absolute;

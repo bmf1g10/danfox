@@ -49,8 +49,8 @@ body{
 
 a,a:hover,a:active,a:focus {
 	display:inline-block;
-	text-decoration:none;
-	color: #6a708e;
+	text-decoration:underline;
+	color: #0e207c;
 	font-size:16px;
 	padding:0;
 }

@@ -70,9 +70,13 @@ h1,h2,h3,h4,h5,h6 {
 p {
 	margin: 0;
 	line-height:1.8;
-	color:#43485c;
+	color:#484747;
 	font-size:14px;
 	font-family: 'Poppins', sans-serif;
+}
+
+.min-height{
+    min-height: 270px;
 }
 img{border:none;max-width:100%; height:auto;}
 ul{
@@ -269,10 +273,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 .single-about-txt p {
     font-size: 16px;
-    color: #999fb3;
+    color: #484747;
     padding: 35px 0 43px;
     border-bottom: 1px solid #999fb3;
 }
+
+
 .emphasized { 
     font-style: italic; 
 }

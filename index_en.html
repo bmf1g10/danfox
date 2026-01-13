@@ -1,749 +1,1046 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
+  <head>
+    <!-- meta data -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <head>
-        <!-- meta data -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!--font-family-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext"
+      rel="stylesheet"
+   >
 
-        <!--font-family-->
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
-        
-        <!-- title of site -->
-        <title>Daniel Fox</title>
+    <!-- title of site -->
+    <title>Daniel Fox</title>
 
-        <!-- For favicon png -->
-		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png">
-       
-        <!--font-awesome.min.css-->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- For favicon png -->
+    <link
+      rel="shortcut icon"
+      type="image/icon"
+      href="assets/logo/favicon.png"
+   >
 
-		<!--flat icon css-->
-		<link rel="stylesheet" href="assets/css/flaticon.css">
+    <!--font-awesome.min.css-->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
-		<!--animate.css-->
-        <link rel="stylesheet" href="assets/css/animate.css">
+    <!--flat icon css-->
+    <link rel="stylesheet" href="assets/css/flaticon.css">
 
-        <!--owl.carousel.css-->
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-		
-        <!--bootstrap.min.css-->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		
-		<!-- bootsnav -->
-		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
-        
-        <!--style.css-->
-        <link rel="stylesheet" href="assets/css/style.css">
-        
-        <!--responsive.css-->
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-36C0XYEL3F"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-36C0XYEL3F');
-        </script>
+    <!--animate.css-->
+    <link rel="stylesheet" href="assets/css/animate.css">
 
-    </head>
+    <!--owl.carousel.css-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 
-	<body>
-		
-		<!-- top-area Start -->
-		<header class="top-area">
-			<div class="header-area">
-				<!-- Start Navigation -->
-			    <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+    <!--bootstrap.min.css-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-			        <div class="container">
+    <!-- bootsnav -->
+    <link rel="stylesheet" href="assets/css/bootsnav.css">
 
-			            <!-- Start Header Navigation -->
-			            <div class="navbar-header">
-			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" aria-label="Toggle navigation menu">
-			                    <i class="fa fa-bars" aria-hidden="true"></i>
-			                </button>
-			                <a class="navbar-brand" href="index_en.html">danielfox</a>
-			            </div><!--/.navbar-header-->
-			            <!-- End Header Navigation -->
+    <!--style.css-->
+    <link rel="stylesheet" href="assets/css/style.css">
 
-			            <!-- Collect the nav links, forms, and other content for toggling -->
-			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-			                <li class=" smooth-menu active"></li>
-								<li class="smooth-menu"><a href="#portfolio">Examples of work</a></li>			                    
-								<li class="smooth-menu"><a href="#about">About me</a></li>	
-								<li class="smooth-menu"><a href="#experience">Experience</a></li>	
-			                    <li class=" smooth-menu"><a href="#education">Education</a></li>
-			                    <!--<li class="smooth-menu"><a href="#skills">Skills</a></li>-->								
-			                    <li class="smooth-menu"><a href="#contact">Contact</a></li>
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language<span class="caret"></span></a>
-									<ul class="dropdown-menu">
-									  <li><a href="index.html">Norwegian</a></li>
-									  <li><a href="index_en.html">English</a></li>									  
-									</ul>
-								</li>
-			                </ul><!--/.nav -->
-			            </div><!-- /.navbar-collapse -->
-			        </div><!--/.container-->
-			    </nav><!--/nav-->
-			    <!-- End Navigation -->
-			</div><!--/.header-area-->
+    <!--responsive.css-->
+    <link rel="stylesheet" href="assets/css/responsive.css">
 
-		    <div class="clearfix"></div>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 
-		</header><!-- /.top-area-->
-		<!-- top-area End -->
-	
-		<!--welcome-hero start -->
-		<section id="welcome-hero" class="welcome-hero">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 text-center">						
-					</div>
-					<div class="col-md-4 text-center">
-						<div class="header-text">
-							<h2>Hi<span>!</span><br> I'm Daniel<span>.</span></h2>
-							<p>ui/ux designer</p>
-							<div><a href="assets/download/danielfox-cv-en.pdf" download>Download my CV</a></div>
-						</div><!--/.header-text-->
-					</div><!--/.col-->
-				</div><!-- /.row-->
-			</div><!-- /.container-->
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-36C0XYEL3F"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-36C0XYEL3F");
+    </script>
+  </head>
 
-		</section><!--/.welcome-hero-->
-		<!--welcome-hero end -->
+  <body>
+    <!-- top-area Start -->
+    <header class="top-area">
+      <div class="header-area">
+        <!-- Start Navigation -->
+        <nav
+          class="navbar navbar-default bootsnav navbar-fixed dark no-background"
+        >
+          <div class="container">
+            <!-- Start Header Navigation -->
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target="#navbar-menu"
+                aria-label="Toggle navigation menu"
+              >
+                <i class="fa fa-bars" aria-hidden="true"></i>
+              </button>
+              <a class="navbar-brand" href="index_en.html">danielfox</a>
+            </div>
+            <!--/.navbar-header-->
+            <!-- End Header Navigation -->
 
-		<!--portfolio start -->
-		<section id="portfolio" class="portfolio">
-			<div class="portfolio-details">
-				<div class="section-heading text-center">
-					<h2>Examples of my work</h2>
-				</div>
-				<div class="container">
-					<div class="portfolio-content">
-						<div class="row">
-							<div class="col-sm-6">
-								<div class="single-about-txt">
-									<div class="col-sm-12 clients-text-aligned">										
-										<img src="assets/images/clients/tina.png" alt="TINE Handel logo">
-										<h3>TINE Handel page</h3>										
-									</div>
-									<p class="min-height">
-										A redesign of the TINE Handel ordering page with a focus on brand identity, user centered design and easy navigation.<br>
-										<a href="https://www.figma.com/proto/JicM40iliaXSSCvvaFQUPR/TINE-Handel?type=design&node-id=1-81&t=h15ewHimjFRBBfbp-1&scaling=scale-down-width&page-id=0%3A1&mode=design" target="_blank"><span class="underline">Read more</span></a> about the scope of this project.<br>
-										<a href="https://www.figma.com/proto/0saKDoJnmPwP5khhdecxfo/The-Cognitive-Design-Team-(CDT)?node-id=479-2059&starting-point-node-id=479%3A2059&t=jdjjzAPoEJ5YPeXG-1" target="_blank"><span class="underline">See the prototype.</span></a>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div><!--/.portfolio-content-->
-				</div><!--/.container-->
-			</div><!--/.portfolio-details-->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div
+              class="collapse navbar-collapse menu-ui-design"
+              id="navbar-menu"
+            >
+              <ul
+                class="nav navbar-nav navbar-right"
+                data-in="fadeInDown"
+                data-out="fadeOutUp"
+              >
+                <li class="smooth-menu active"></li>
+                <li class="smooth-menu">
+                  <a href="#portfolio">Examples of work</a>
+                </li>
+                <li class="smooth-menu"><a href="#about">About me</a></li>
+                <li class="smooth-menu">
+                  <a href="#experience">Experience</a>
+                </li>
+                <li class="smooth-menu"><a href="#education">Education</a></li>
+                <!--<li class="smooth-menu"><a href="#skills">Skills</a></li>-->
+                <li class="smooth-menu"><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                  <a
+                    href="#"
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Language<span class="caret"></span
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="index.html">Norwegian</a></li>
+                    <li><a href="index_en.html">English</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <!--/.nav -->
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!--/.container-->
+        </nav>
+        <!--/nav-->
+        <!-- End Navigation -->
+      </div>
+      <!--/.header-area-->
 
-		</section><!--/.portfolio-->
-		<!--portfolio end -->
+      <div class="clearfix"></div>
+    </header>
+    <!-- /.top-area-->
+    <!-- top-area End -->
 
-		<!--case study start -->
-		<section id="clients" class="clients">
-			<div class="section-heading text-center">
-				<h2>Case Study</h2>
-			</div>
-			<div class="container">
-				<div class="about-content">
-					<div class="row">
-						<div class="col-sm-6">
-							<div class="single-about-txt">
-								<div class="col-sm-12 clients-text-aligned">
-									<img src="assets/images/clients/tina.png" alt="TINE Handel logo">
-									<h3>TINE Handel</h3>										
-								</div>
-								<p>
-									<a href="https://www.figma.com/proto/0saKDoJnmPwP5khhdecxfo/The-Cognitive-Design-Team-(CDT)?node-id=479-2059&starting-point-node-id=479%3A2059&t=jdjjzAPoEJ5YPeXG-1" target="_blank"><span class="underline">Link to prototype.</span></a><br><br><br>
+    <!--welcome-hero start -->
+    <section id="welcome-hero" class="welcome-hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 text-center"></div>
+          <div class="col-md-4 text-center">
+            <div class="header-text">
+              <h2>
+                Hi<span>!</span><br>
+                I'm Daniel<span>.</span>
+              </h2>
+              <p>ui/ux designer</p>
+              <div>
+                <a href="assets/download/danielfox-cv-en.pdf" download
+                  >Download my CV</a
+                >
+              </div>
+            </div>
+            <!--/.header-text-->
+          </div>
+          <!--/.col-->
+        </div>
+        <!-- /.row-->
+      </div>
+      <!-- /.container-->
+    </section>
+    <!--/.welcome-hero-->
+    <!--welcome-hero end -->
 
+    <!--portfolio start -->
+    <section id="portfolio" class="portfolio">
+      <div class="portfolio-details">
+        <div class="section-heading text-center">
+          <h2>Examples of my work</h2>
+        </div>
+        <div class="container">
+          <div class="portfolio-content">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="single-about-txt">
+                  <div class="col-sm-12 clients-text-aligned">
+                    <img
+                      src="assets/images/clients/tina.png"
+                      alt="TINE Handel logo"
+                   >
+                    <h3>TINE Handel page</h3>
+                  </div>
+                  <p class="min-height">
+                    A redesign of the TINE Handel ordering page with a focus on
+                    brand identity, user centered design and easy navigation.<br>
+                    <a
+                      href="https://www.figma.com/proto/JicM40iliaXSSCvvaFQUPR/TINE-Handel?type=design&node-id=1-81&t=h15ewHimjFRBBfbp-1&scaling=scale-down-width&page-id=0%3A1&mode=design"
+                      target="_blank"
+                      ><span class="underline">Read more</span></a
+                    >
+                    about the scope of this project.<br>
+                    <a
+                      href="https://www.figma.com/proto/0saKDoJnmPwP5khhdecxfo/The-Cognitive-Design-Team-(CDT)?node-id=479-2059&starting-point-node-id=479%3A2059&t=jdjjzAPoEJ5YPeXG-1"
+                      target="_blank"
+                      ><span class="underline">See the prototype.</span></a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/.portfolio-content-->
+        </div>
+        <!--/.container-->
+      </div>
+      <!--/.portfolio-details-->
+    </section>
+    <!--/.portfolio-->
+    <!--portfolio end -->
 
-									I updated and improved the e-commerce website to Norwegian dairy company TINE Handel.I worked as part of a team and followed the Design Thinking Process.Below is a very general overview:<br><br>								
+    <!--case study start -->
+    <section id="clients" class="clients">
+      <div class="section-heading text-center">
+        <h2>Case Study</h2>
+      </div>
+      <div class="container">
+        <div class="about-content">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="single-about-txt">
+                <div class="col-sm-12 clients-text-aligned">
+                  <img
+                    src="assets/images/clients/tina.png"
+                    alt="TINE Handel logo"
+                 >
+                  <h3>TINE Handel</h3>
+                </div>
+                <p>
+                  <a
+                    href="https://www.figma.com/proto/0saKDoJnmPwP5khhdecxfo/The-Cognitive-Design-Team-(CDT)?node-id=479-2059&starting-point-node-id=479%3A2059&t=jdjjzAPoEJ5YPeXG-1"
+                    target="_blank"
+                    ><span class="underline">Link to prototype.</span></a
+                  ><br><br><br>
 
-									<span class="bold">Empathy</span><br>
-									Identified user research goals, planned and carried out primary and secondary research including interviews, a literature review and metadata. I then analysed results through affinity mapping and atomic research to find insights and make recommendations.<br><br>
-									<span class="bold">Define</span><br>
-									Created personas, made a user scenario and formulated a problem statement.<br><br>
+                  I updated and improved the e-commerce website to Norwegian
+                  dairy company TINE Handel.I worked as part of a team and
+                  followed the Design Thinking Process.Below is a very general
+                  overview:<br><br>
 
-									<span class="bold">Ideation</span><br>
-									Planned and carried out ideation-workshops using techniques; brainstorming, sketchstorming, SCAMPER and MOSCOW. Created low fidelity prototypes and wireframes for both mobile and desktop interfaces. Considered user navigation and possible user journeys. Created wireflows and userflows.<br><br>
+                  <span class="bold">Empathy</span><br>
+                  Identified user research goals, planned and carried out
+                  primary and secondary research including interviews, a
+                  literature review and metadata. I then analysed results
+                  through affinity mapping and atomic research to find insights
+                  and make recommendations.<br><br>
+                  <span class="bold">Define</span><br>
+                  Created personas, made a user scenario and formulated a
+                  problem statement.<br><br>
 
-									<span class="bold">Prototyping</span><br>
-									Used Figma to create medium and high-fidelity prototypes for mobile and desktop interfaces.<br><br>
+                  <span class="bold">Ideation</span><br>
+                  Planned and carried out ideation-workshops using techniques;
+                  brainstorming, sketchstorming, SCAMPER and MOSCOW. Created low
+                  fidelity prototypes and wireframes for both mobile and desktop
+                  interfaces. Considered user navigation and possible user
+                  journeys. Created wireflows and userflows.<br><br>
 
-									<span class="bold">Testing</span><br>
-									Planned and carried out usability testing. Analysed results and created a usability testing report where recommendations were made to the next steps in developing the product.<br><br>
+                  <span class="bold">Prototyping</span><br>
+                  Used Figma to create medium and high-fidelity prototypes for
+                  mobile and desktop interfaces.<br><br>
 
-									<span class="bold">Learning points</span><br>
-									This was a large project and I worked thoroughly throughout.  As such I increased my understanding of, and ability to carry out, (the areas within) each stage of the design thinking process.
-									The experience also made me more proficient in using Figma and I feel confident in creating new designs.
-									Responsive design was also a key design solution to this project and I feel me knowledge of the use of responsive design has also improved.
-									Also I have learnt the importance of a first audit to existing designs and, in regards to testing, making advance contact with good time in recruiting participants.
-									<br><br>
-									A link to a more detailed report of this project is <a href="https://www.figma.com/proto/JicM40iliaXSSCvvaFQUPR/TINE-Handel?type=design&node-id=1-81&t=h15ewHimjFRBBfbp-1&scaling=scale-down-width&page-id=0%3A1&mode=design" target="_blank"><span class="underline">here</span></a>.									
-								</p>
-							</div>
-						</div>
-						<div class="col-sm-offset-1 col-sm-5 clients-images">	
-							<div class="row">
-								<div class="col-sm-12">
-									<div class="item">
-										<img class="img-rounded" src="assets/images/portfolio/p1-t.jpg" alt="TINE Handel prototype design 1">						
-									</div><!-- /.item -->
-									<div class="item">
-										<img class="img-rounded" src="assets/images/portfolio/p2-t.jpg" alt="TINE Handel prototype design 2">											
-									</div><!-- /.item -->	
-									<div class="item">
-										<img class="img-rounded" src="assets/images/portfolio/p5-t.jpg" alt="TINE Handel prototype design 3">											
-									</div><!-- /.item -->										
-						
-									<div class="item">
-										<img class="img-rounded" src="assets/images/portfolio/p3-t.jpg" alt="TINE Handel prototype design 4">											
-									</div><!-- /.item -->
-									<div class="item">
-										<img class="img-rounded" src="assets/images/portfolio/p4-t.jpg" alt="TINE Handel prototype design 5">											
-									</div><!-- /.item -->		
-								</div><!-- /.col -->
-							</div>							
-						</div>
-					</div>
-				</div>
-			</div>
-		</section><!--/.clients-->
-		<!--case study end -->
+                  <span class="bold">Testing</span><br>
+                  Planned and carried out usability testing. Analysed results
+                  and created a usability testing report where recommendations
+                  were made to the next steps in developing the product.<br><br>
 
-		<!--about start -->
-		<section id="about" class="about">
-			<div class="section-heading text-center">
-				<h2>About Me</h2>
-			</div>
-			<div class="container">
-				<div class="about-content">
-					<div class="row">
-						<div class="col-sm-6">
-							<div class="single-about-txt">
-								<h3>
-									I'm a professional UX designer
-								</h3>
-								<p>
-									I am Daniel, a recently qualified UX-Designer with some working experience. I live in Bergen, Norway.
-									I have a professional degree in UX-Design and achieved the highest grades and good feedback. In UX-Design I have found my passion and believe in the Design Thinking Process.
-									My largest project to date was in cooperation with TINE Handel, Norway's largest dairy producer, where I worked in a team and redesigned their e-commerce website.
-									I am currently working voluntarily on redesigning an application that helps doctors manage the medication of patients with Parkinsons Disease.
-									My working background is as a nursery projectworker and a police officer. In these professions I have been in regular contact with different people with very different needs and motivations. This has given me a good grounding for understanding people and I have also studied empathy as part of my Child -and Youth qualification.
-								</p>
-								<h3>How I work</h3>
-								<p>
-									I am used to, and enjoy work best as part of a team. I am confident and can work well on my own. I have leant how useful it is to discuss and share information with other UX-Designers who have slightly different perspectives while also having confidence in my own knowledge and ideas.
-									My passion is user-centred design, to create solutions that are intuitive for the user and inclusive for the general public. I use good UX practices, principles and design systems to create consistent and clear designs.
-								</p>
-								<div class="single-about-img-small">
-									<img src="assets/images/about/jacobs_law.jpg" alt="Jacob's Law of UX illustration">
-								</div>
-								<h3>A bit more about me</h3>
-								<p>
-									I'm married, I have three fantastic children and enjoy life with family and friends which can include work colleagues. I love music. I have a self-employed business as a mobile-DJ, working the occasional Friday or Saturday evening. Football is my favourite sport and Southampton, UK are my team.
-									My 2024 New Years Resolution is to complete twelve mountain hikes, something I really enjoy but don't do often enough. In my downtime I also enjoy cooking and getting lost in a good tv-series.
-								</p>
-								<div class="row">
-									<div class="col-sm-4">
-										<div class="single-about-add-info">
-											<h3>Phone</h3>
-											<p>+47 4814 7877</p>
-										</div>
-									</div>
-									<div class="col-sm-4">
-										<div class="single-about-add-info">
-											<h3>Email</h3>
-											<p>danfoxux@gmail.com</p>
-										</div>
-									</div>
-									<div class="col-sm-4">
-										<div class="single-about-add-info">
-											<h3>Website</h3>
-											<p>www.danielfox.no</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-offset-1 col-sm-5">
-							<div class="single-about-img">
-								<img src="assets/images/about/profile_image.jpg" alt="profile_image">
-								<div class="about-list-icon">
-									<ul>
-										<li>
-											<a href="https://www.facebook.com/dan.fox.752" target="_blank" aria-label="Facebook profile">
-												<i class="fa fa-facebook" aria-hidden="true"></i>
-											</a>
-										</li>
-										<li>
-											<a href="https://www.linkedin.com/in/danielfoxbergen/" target="_blank" aria-label="LinkedIn profile">
-												<i class="fa fa-linkedin" aria-hidden="true"></i>
-											</a>
-										</li>
-										<li>
-											<a href="https://www.instagram.com/danfox_ux/" target="_blank" aria-label="Instagram profile">
-												<i class="fa fa-instagram" aria-hidden="true"></i>
-											</a>
-										</li>
-									</ul><!-- / ul -->
-								</div><!-- /.about-list-icon -->
-							</div>			
-							<div class="single-about-txt">
-								<p>
-									<span class="emphasized">"I have seen your ability in UX, the quality of work you produced, your manner of communication and asking questions and your professionalism."</span><br>
-									<span class="bold">Dona Mulaku</span><br> UX Design Teacher<br> Noroff School of Digital Technology and Design Media
-								</p>
-								<p>
-									<span class="emphasized">"I am really pleased with Daniel and his teams choice (to work with TINE Handel) in the businesses webshop.  They produced a very good problem statement, a relevant theme for us to work further with.  It was very exciting to be updated with their work.  They produced a solid framework and working methods within design thinking.  This is a robust piece of work with significant result which we will work further with in our continuous development"</span><br/>
-									<span class="bold">Solveig Prestvik</span><br>Webdesign Lead<br>TINE Handel
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section><!--/.about-->
-		<!--about end -->
-				
-		<!--experience start -->
-		<section id="experience" class="experience">
-			<div class="section-heading text-center">
-				<h2>Experience</h2>
-			</div>
-			<div class="container">
-				<div class="experience-content">
-						<div class="main-timeline">
-							<ul>
-								<li>
-									<div class="single-timeline-box fix">
-										<div class="row">
-											<div class="col-md-5">
-												<div class="experience-time text-right">
-													<h2>2024 - Present</h2>
-													<h3>Design Consultant</h3>
-												</div><!--/.experience-time-->
-											</div><!--/.col-->
-											<div class="col-md-offset-1 col-md-5">
-												<div class="timeline">
-													<div class="timeline-content">
-														<h4 class="title">
-															<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-															Parkinsons Calculator
-														</h4>
-														<h5>Southampton, UK</h5>
-														<p class="description">															
-															Redesign of the <a href="http://www.parkinsonscalculator.com" target="_blank">Parkinson Calulator</a> application which allows doctors to calculate the correct dosage of medicine for patients with Parkinsons Disease.
-														</p>                                                        
-													</div><!--/.timeline-content-->
-													
-												</div><!--/.timeline-->
-											</div><!--/.col-->
-										</div>
-									</div><!--/.single-timeline-box-->
-								</li>
-								<li>
-									<div class="single-timeline-box fix">
-										<div class="row">
-											<div class="col-md-5">
-												<div class="experience-time text-right">
-													<h2>2021-2023</h2>
-													<h3>UX Designer</h3>
-												</div><!--/.experience-time-->
-											</div><!--/.col-->
-											<div class="col-md-offset-1 col-md-5">
-												<div class="timeline">
-													<div class="timeline-content">
-														<h4 class="title">
-															<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-															TINE Handel
-														</h4>
-														<h5>Kalbakken, Oslo</h5>
-														<p class="description">															
-															Updated and re-designed the TINE Handel e-commence website.
-														</p>                                                        
-													</div><!--/.timeline-content-->
-													
-												</div><!--/.timeline-->
-											</div><!--/.col-->
-										</div>
-									</div><!--/.single-timeline-box-->
-								</li>
-							</ul>
-						</div><!--.main-timeline-->
-					</div><!--.experience-content-->
-			</div>
+                  <span class="bold">Learning points</span><br>
+                  This was a large project and I worked thoroughly throughout. 
+                  As such I increased my understanding of, and ability to carry
+                  out, (the areas within) each stage of the design thinking
+                  process. The experience also made me more proficient in using
+                  Figma and I feel confident in creating new designs. Responsive
+                  design was also a key design solution to this project and I
+                  feel me knowledge of the use of responsive design has also
+                  improved. Also I have learnt the importance of a first audit
+                  to existing designs and, in regards to testing, making advance
+                  contact with good time in recruiting participants.
+                  <br><br>
+                  A link to a more detailed report of this project is
+                  <a
+                    href="https://www.figma.com/proto/JicM40iliaXSSCvvaFQUPR/TINE-Handel?type=design&node-id=1-81&t=h15ewHimjFRBBfbp-1&scaling=scale-down-width&page-id=0%3A1&mode=design"
+                    target="_blank"
+                    ><span class="underline">here</span></a
+                  >.
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-offset-1 col-sm-5 clients-images">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="item">
+                    <img
+                      class="img-rounded"
+                      src="assets/images/portfolio/p1-t.jpg"
+                      alt="TINE Handel prototype design 1"
+                   >
+                  </div>
+                  <!-- /.item -->
+                  <div class="item">
+                    <img
+                      class="img-rounded"
+                      src="assets/images/portfolio/p2-t.jpg"
+                      alt="TINE Handel prototype design 2"
+                   >
+                  </div>
+                  <!-- /.item -->
+                  <div class="item">
+                    <img
+                      class="img-rounded"
+                      src="assets/images/portfolio/p5-t.jpg"
+                      alt="TINE Handel prototype design 3"
+                   >
+                  </div>
+                  <!-- /.item -->
 
-		</section><!--/.experience-->
-		<!--experience end -->
+                  <div class="item">
+                    <img
+                      class="img-rounded"
+                      src="assets/images/portfolio/p3-t.jpg"
+                      alt="TINE Handel prototype design 4"
+                   >
+                  </div>
+                  <!-- /.item -->
+                  <div class="item">
+                    <img
+                      class="img-rounded"
+                      src="assets/images/portfolio/p4-t.jpg"
+                      alt="TINE Handel prototype design 5"
+                   >
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.col -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/.clients-->
+    <!--case study end -->
 
-		<!--education start -->
-		<section id="education" class="education">
-			<div class="section-heading text-center">
-				<h2>Education</h2>
-			</div>
-			<div class="container">
-				<div class="education-horizontal-timeline">
-					<div class="row">
-						<div class="col-sm-4">
-							<div class="single-horizontal-timeline">
-								<div class="experience-time">
-									<h2>2021-2023</h2>
-									<h3>Professional degree in UX-Design</h3>
-								</div><!--/.experience-time-->
-								<div class="timeline-horizontal-border">
-									<i class="fa fa-circle" aria-hidden="true"></i>
-									<span class="single-timeline-horizontal"></span>
-								</div>
-								<div class="timeline">
-									<div class="timeline-content">
-										<h4 class="title">
-											NOROFF School of Technology
-										</h4>
-										<h5>Oslo, NORWAY</h5>
-										<p class="description">
-                                            Result: A
-										</p>
-									</div><!--/.timeline-content-->
-								</div><!--/.timeline-->
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="single-horizontal-timeline">
-								<div class="experience-time">
-									<h2>2019 - 2020</h2>
-									<h3>Course Certificate:  Child and Youth Worker</h3>
-								</div><!--/.experience-time-->
-								<div class="timeline-horizontal-border">
-									<i class="fa fa-circle" aria-hidden="true"></i>
-									<span class="single-timeline-horizontal"></span>
-								</div>
-								<div class="timeline">
-									<div class="timeline-content">
-										<h4 class="title">
-											VESTLAND County, Norway
-										</h4>
-										<h5>Passed</h5>
-										<p class="description">											
-										</p>
-									</div><!--/.timeline-content-->
-								</div><!--/.timeline-->
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="single-horizontal-timeline">
-								<div class="experience-time">
-									<h2>2014 - 2016</h2>
-									<h3>Norwegian Course</h3>
-								</div><!--/.experience-time-->
-								<div class="timeline-horizontal-border">
-									<i class="fa fa-circle" aria-hidden="true"></i>
-									<span class="single-timeline-horizontal"></span>
-								</div>
-								<div class="timeline">
-									<div class="timeline-content">
-										<h4 class="title">
-											UiB NOR 
-										</h4>	
-										<h5>Folkeuniversitetet</h5>									
-										<p class="description">	
-											Result: C / Passed
-										</p>
-									</div><!--/.timeline-content-->
-								</div><!--/.timeline-->
-							</div>
-						</div>	
-					</div>
-				</div>
-				<div class="education-horizontal-timeline">										
-					<div class="row">
-						<div class="col-sm-4">
-							<div class="single-horizontal-timeline">
-								<div class="experience-time">
-									<h2>2005 - 2006</h2>
-									<h3>Police Officer</h3>
-								</div><!--/.experience-time-->
-								<div class="timeline-horizontal-border">
-									<i class="fa fa-circle" aria-hidden="true"></i>
-									<span class="single-timeline-horizontal spacial-horizontal-line
-									"></span>
-								</div>
-								<div class="timeline">
-									<div class="timeline-content">
-										<h4 class="title">
-											Metropolitan Police Service
-										</h4>
-										<h5>London, UK</h5>
-										<p class="description">
-											Completed police officer training.
-										</p>
-									</div><!--/.timeline-content-->
-								</div><!--/.timeline-->
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="single-horizontal-timeline">
-								<div class="experience-time">
-									<h2>1997 - 2000</h2>
-									<h3>Bachelor (BSc) in Fire Safety</h3>
-								</div><!--/.experience-time-->
-								<div class="timeline-horizontal-border">
-									<i class="fa fa-circle" aria-hidden="true"></i>
-									<span class="single-timeline-horizontal spacial-horizontal-line
-									"></span>
-								</div>
-								<div class="timeline">
-									<div class="timeline-content">
-										<h4 class="title">
-											University of Central Lancashire 
-										</h4>
-										<h5>Preston, UK</h5>
-										<p class="description">
-											Result 2.1. Specialising in fire safety in buildings and structures
-										</p>
-									</div><!--/.timeline-content-->
-								</div><!--/.timeline-->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+    <!--about start -->
+    <section id="about" class="about">
+      <div class="section-heading text-center">
+        <h2>About Me</h2>
+      </div>
+      <div class="container">
+        <div class="about-content">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="single-about-txt">
+                <h3>I'm a professional UX designer</h3>
+                <p>
+                  I am Daniel, a recently qualified UX-Designer with some
+                  working experience. I live in Bergen, Norway. I have a
+                  professional degree in UX-Design and achieved the highest
+                  grades and good feedback. In UX-Design I have found my passion
+                  and believe in the Design Thinking Process. My largest project
+                  to date was in cooperation with TINE Handel, Norway's largest
+                  dairy producer, where I worked in a team and redesigned their
+                  e-commerce website. I am currently working voluntarily on
+                  redesigning an application that helps doctors manage the
+                  medication of patients with Parkinsons Disease. My working
+                  background is as a nursery projectworker and a police officer.
+                  In these professions I have been in regular contact with
+                  different people with very different needs and motivations.
+                  This has given me a good grounding for understanding people
+                  and I have also studied empathy as part of my Child -and Youth
+                  qualification.
+                </p>
+                <h3>How I work</h3>
+                <p>
+                  I am used to, and enjoy work best as part of a team. I am
+                  confident and can work well on my own. I have leant how useful
+                  it is to discuss and share information with other UX-Designers
+                  who have slightly different perspectives while also having
+                  confidence in my own knowledge and ideas. My passion is
+                  user-centred design, to create solutions that are intuitive
+                  for the user and inclusive for the general public. I use good
+                  UX practices, principles and design systems to create
+                  consistent and clear designs.
+                </p>
+                <div class="single-about-img-small">
+                  <img
+                    src="assets/images/about/jacobs_law.jpg"
+                    alt="Jacob's Law of UX illustration"
+                 >
+                </div>
+                <h3>A bit more about me</h3>
+                <p>
+                  I'm married, I have three fantastic children and enjoy life
+                  with family and friends which can include work colleagues. I
+                  love music. I have a self-employed business as a mobile-DJ,
+                  working the occasional Friday or Saturday evening. Football is
+                  my favourite sport and Southampton, UK are my team. My 2024
+                  New Years Resolution is to complete twelve mountain hikes,
+                  something I really enjoy but don't do often enough. In my
+                  downtime I also enjoy cooking and getting lost in a good
+                  tv-series.
+                </p>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="single-about-add-info">
+                      <h3>Phone</h3>
+                      <p>+47 4814 7877</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="single-about-add-info">
+                      <h3>Email</h3>
+                      <p>danfoxux@gmail.com</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="single-about-add-info">
+                      <h3>Website</h3>
+                      <p>www.danielfox.no</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-offset-1 col-sm-5">
+              <div class="single-about-img">
+                <img
+                  src="assets/images/about/profile_image.jpg"
+                  alt="profile_image"
+               >
+                <div class="about-list-icon">
+                  <ul>
+                    <li>
+                      <a
+                        href="https://www.facebook.com/dan.fox.752"
+                        target="_blank"
+                        aria-label="Facebook profile"
+                      >
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/danielfoxbergen/"
+                        target="_blank"
+                        aria-label="LinkedIn profile"
+                      >
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/danfox_ux/"
+                        target="_blank"
+                        aria-label="Instagram profile"
+                      >
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                  </ul>
+                  <!-- / ul -->
+                </div>
+                <!-- /.about-list-icon -->
+              </div>
+              <div class="single-about-txt">
+                <p>
+                  <span class="emphasized"
+                    >"I have seen your ability in UX, the quality of work you
+                    produced, your manner of communication and asking questions
+                    and your professionalism."</span
+                  ><br>
+                  <span class="bold">Dona Mulaku</span><br>
+                  UX Design Teacher<br>
+                  Noroff School of Digital Technology and Design Media
+                </p>
+                <p>
+                  <span class="emphasized"
+                    >"I am really pleased with Daniel and his teams choice (to
+                    work with TINE Handel) in the businesses webshop. They
+                    produced a very good problem statement, a relevant theme for
+                    us to work further with. It was very exciting to be updated
+                    with their work. They produced a solid framework and working
+                    methods within design thinking. This is a robust piece of
+                    work with significant result which we will work further with
+                    in our continuous development"</span
+                  ><br>
+                  <span class="bold">Solveig Prestvik</span><br>Webdesign
+                  Lead<br>TINE Handel
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/.about-->
+    <!--about end -->
 
-		</section><!--/.education-->
-		<!--education end -->
+    <!--experience start -->
+    <section id="experience" class="experience">
+      <div class="section-heading text-center">
+        <h2>Experience</h2>
+      </div>
+      <div class="container">
+        <div class="experience-content">
+          <div class="main-timeline">
+            <ul>
+              <li>
+                <div class="single-timeline-box fix">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="experience-time text-right">
+                        <h2>2024 - Present</h2>
+                        <h3>Design Consultant</h3>
+                      </div>
+                      <!--/.experience-time-->
+                    </div>
+                    <!--/.col-->
+                    <div class="col-md-offset-1 col-md-5">
+                      <div class="timeline">
+                        <div class="timeline-content">
+                          <h4 class="title">
+                            <span
+                              ><i class="fa fa-circle" aria-hidden="true"></i
+                            ></span>
+                            Parkinsons Calculator
+                          </h4>
+                          <h5>Southampton, UK</h5>
+                          <p class="description">
+                            Redesign of the
+                            <a
+                              href="http://www.parkinsonscalculator.com"
+                              target="_blank"
+                              >Parkinson Calulator</a
+                            >
+                            application which allows doctors to calculate the
+                            correct dosage of medicine for patients with
+                            Parkinsons Disease.
+                          </p>
+                        </div>
+                        <!--/.timeline-content-->
+                      </div>
+                      <!--/.timeline-->
+                    </div>
+                    <!--/.col-->
+                  </div>
+                </div>
+                <!--/.single-timeline-box-->
+              </li>
+              <li>
+                <div class="single-timeline-box fix">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="experience-time text-right">
+                        <h2>2021-2023</h2>
+                        <h3>UX Designer</h3>
+                      </div>
+                      <!--/.experience-time-->
+                    </div>
+                    <!--/.col-->
+                    <div class="col-md-offset-1 col-md-5">
+                      <div class="timeline">
+                        <div class="timeline-content">
+                          <h4 class="title">
+                            <span
+                              ><i class="fa fa-circle" aria-hidden="true"></i
+                            ></span>
+                            TINE Handel
+                          </h4>
+                          <h5>Kalbakken, Oslo</h5>
+                          <p class="description">
+                            Updated and re-designed the TINE Handel e-commence
+                            website.
+                          </p>
+                        </div>
+                        <!--/.timeline-content-->
+                      </div>
+                      <!--/.timeline-->
+                    </div>
+                    <!--/.col-->
+                  </div>
+                </div>
+                <!--/.single-timeline-box-->
+              </li>
+            </ul>
+          </div>
+          <!--.main-timeline-->
+        </div>
+        <!--.experience-content-->
+      </div>
+    </section>
+    <!--/.experience-->
+    <!--experience end -->
 
-		<!--skills start -->
-		<section id="skills" class="skills">
-				<div class="skill-content">
-					<div class="section-heading text-center">
-						<h2>Skills</h2>
-					</div>
-					<div class="container">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="single-skill-content">
-									<div class="barWrapper">
-										<span class="progressText">Figma</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="10" aria-valuemax="100" style="">
-													  
-												</div>
-											</div>
-											<h3>95%</h3>	
-										</div>
-									</div><!-- /.barWrapper -->
-									<div class="barWrapper">
-										<span class="progressText">Adobe XD</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="10" aria-valuemax="100" style="">
-												    
-											   </div>
-											</div>
-											<h3>85%</h3>	
-										</div>
-									</div><!-- /.barWrapper -->
-									<div class="barWrapper">
-										<span class="progressText">Sketch</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="10" aria-valuemax="100" style="">
-												   
-											   </div>
-											</div>
-											<h3>88%</h3>	
-										</div>
-									</div><!-- /.barWrapper -->
-									<div class="barWrapper">
-										<span class="progressText">Presentation Programs</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="10" aria-valuemax="100" style="">
-												    
-											   </div>
-											</div>
-											<h3>85%</h3>	
-										</div>
-									</div><!-- /.barWrapper -->
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="single-skill-content">
-									<div class="barWrapper">
-										<span class="progressText">Prototyping</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="">
-													
-												</div>
-											</div>
-											<h3>90%</h3>	
-										</div>
-									</div><!-- /.barWrapper -->
-									<div class="barWrapper">
-										<span class="progressText">Usability testing</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="10" aria-valuemax="100" style="">
-												    
-											   </div>
-											</div>
-											<h3>92%</h3>	
-										</div>
-									</div><!-- /.barWrapper -->
-									<div class="barWrapper">
-										<span class="progressText">User research</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="96" aria-valuemin="10" aria-valuemax="100" style="">
-												   
-											   </div>
-											</div>
-											<h3>96%</h3>	
-										</div>
-									</div><!-- /.barWrapper -->
-									<div class="barWrapper">
-										<span class="progressText">Design principles</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="10" aria-valuemax="100" style="">
-												   
-											   </div>
-											</div>
-											<h3>98%</h3>	
-										</div>
-									</div><!-- /.barWrapper -->
-								</div>
-							</div>
-						</div><!-- /.row -->
-					</div>	<!-- /.container -->		
-				</div><!-- /.skill-content-->
+    <!--education start -->
+    <section id="education" class="education">
+      <div class="section-heading text-center">
+        <h2>Education</h2>
+      </div>
+      <div class="container">
+        <div class="education-horizontal-timeline">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="single-horizontal-timeline">
+                <div class="experience-time">
+                  <h2>2021-2023</h2>
+                  <h3>Professional degree in UX-Design</h3>
+                </div>
+                <!--/.experience-time-->
+                <div class="timeline-horizontal-border">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  <span class="single-timeline-horizontal"></span>
+                </div>
+                <div class="timeline">
+                  <div class="timeline-content">
+                    <h4 class="title">NOROFF School of Technology</h4>
+                    <h5>Oslo, NORWAY</h5>
+                    <p class="description">Result: A</p>
+                  </div>
+                  <!--/.timeline-content-->
+                </div>
+                <!--/.timeline-->
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="single-horizontal-timeline">
+                <div class="experience-time">
+                  <h2>2019 - 2020</h2>
+                  <h3>Course Certificate:  Child and Youth Worker</h3>
+                </div>
+                <!--/.experience-time-->
+                <div class="timeline-horizontal-border">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  <span class="single-timeline-horizontal"></span>
+                </div>
+                <div class="timeline">
+                  <div class="timeline-content">
+                    <h4 class="title">VESTLAND County, Norway</h4>
+                    <h5>Passed</h5>
+                    <p class="description"></p>
+                  </div>
+                  <!--/.timeline-content-->
+                </div>
+                <!--/.timeline-->
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="single-horizontal-timeline">
+                <div class="experience-time">
+                  <h2>2014 - 2016</h2>
+                  <h3>Norwegian Course</h3>
+                </div>
+                <!--/.experience-time-->
+                <div class="timeline-horizontal-border">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  <span class="single-timeline-horizontal"></span>
+                </div>
+                <div class="timeline">
+                  <div class="timeline-content">
+                    <h4 class="title">UiB NOR</h4>
+                    <h5>Folkeuniversitetet</h5>
+                    <p class="description">Result: C / Passed</p>
+                  </div>
+                  <!--/.timeline-content-->
+                </div>
+                <!--/.timeline-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="education-horizontal-timeline">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="single-horizontal-timeline">
+                <div class="experience-time">
+                  <h2>2005 - 2006</h2>
+                  <h3>Police Officer</h3>
+                </div>
+                <!--/.experience-time-->
+                <div class="timeline-horizontal-border">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  <span
+                    class="single-timeline-horizontal spacial-horizontal-line"
+                  ></span>
+                </div>
+                <div class="timeline">
+                  <div class="timeline-content">
+                    <h4 class="title">Metropolitan Police Service</h4>
+                    <h5>London, UK</h5>
+                    <p class="description">
+                      Completed police officer training.
+                    </p>
+                  </div>
+                  <!--/.timeline-content-->
+                </div>
+                <!--/.timeline-->
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="single-horizontal-timeline">
+                <div class="experience-time">
+                  <h2>1997 - 2000</h2>
+                  <h3>Bachelor (BSc) in Fire Safety</h3>
+                </div>
+                <!--/.experience-time-->
+                <div class="timeline-horizontal-border">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  <span
+                    class="single-timeline-horizontal spacial-horizontal-line"
+                  ></span>
+                </div>
+                <div class="timeline">
+                  <div class="timeline-content">
+                    <h4 class="title">University of Central Lancashire</h4>
+                    <h5>Preston, UK</h5>
+                    <p class="description">
+                      Result 2.1. Specialising in fire safety in buildings and
+                      structures
+                    </p>
+                  </div>
+                  <!--/.timeline-content-->
+                </div>
+                <!--/.timeline-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/.education-->
+    <!--education end -->
 
-		</section><!--/.skills-->
-		<!--skills end -->	
-		<!--contact start -->
-		<section id="contact" class="contact">
-			<div class="section-heading text-center">
-				<h2>Contact Me</h2>
-			</div>
-			<div class="container">
-				<div class="contact-content">
-					<div class="row">
-						<div class="col-md-offset-1 col-md-5 col-sm-6">
-							<div class="single-contact-box">
-								<div class="contact-adress">
-									<div class="contact-add-head">
-										<h3>Daniel Fox</h3>
-										<p>UI/UX designer</p>
-									</div>
-									<div class="contact-add-info">
-										<div class="single-contact-add-info">
-											<h3>Phone</h3>
-											<p>+47 4814 7877</p>
-										</div>
-									</div>
-								</div><!--/.contact-adress-->
-							</div><!--/.single-contact-box-->
-						</div><!--/.col-->
-						<div class="col-md-offset-1 col-md-5 col-sm-6">
-							<div class="single-contact-box">
-								<div class="contact-adress">
-									<div class="single-contact-add-info">
-										<h3>Email</h3>
-										<p><a href="mailto:danfoxux@gmail.com">danfoxux@gmail.com</a></p>
-									</div>
-									<div class="single-contact-add-info">
-										<h3>Website</h3>
-										<p>www.danielfox.no</p>
-									</div>
-								</div><!--/.contact-adress-->
-								<div class="hm-foot-icon">
-									<ul>
-										<li><a href="https://www.facebook.com/dan.fox.752" target="_blank" aria-label="Facebook profile"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-										<li><a href="https://www.linkedin.com/in/danielfoxbergen/" target="_blank" aria-label="LinkedIn profile"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-										<li><a href="https://www.instagram.com/danfox_ux/" target="_blank" aria-label="Instagram profile"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-									</ul><!--/ul-->
-								</div><!--/.hm-foot-icon-->
-							</div><!--/.single-contact-box-->
-						</div><!--/.col-->
-					</div><!--/.row-->
-				</div><!--/.contact-content-->
-			</div><!--/.container-->
+    <!--skills start -->
+    <section id="skills" class="skills">
+      <div class="skill-content">
+        <div class="section-heading text-center">
+          <h2>Skills</h2>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="single-skill-content">
+                <div class="barWrapper">
+                  <span class="progressText">Figma</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="95"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                        style=""
+                      ></div>
+                    </div>
+                    <h3>95%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+                <div class="barWrapper">
+                  <span class="progressText">Adobe XD</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="85"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                        style=""
+                      ></div>
+                    </div>
+                    <h3>85%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+                <div class="barWrapper">
+                  <span class="progressText">Sketch</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="88"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                        style=""
+                      ></div>
+                    </div>
+                    <h3>88%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+                <div class="barWrapper">
+                  <span class="progressText">Presentation Programs</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="85"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                        style=""
+                      ></div>
+                    </div>
+                    <h3>85%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="single-skill-content">
+                <div class="barWrapper">
+                  <span class="progressText">Prototyping</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="90"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                        style=""
+                      ></div>
+                    </div>
+                    <h3>90%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+                <div class="barWrapper">
+                  <span class="progressText">Usability testing</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="92"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                        style=""
+                      ></div>
+                    </div>
+                    <h3>92%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+                <div class="barWrapper">
+                  <span class="progressText">User research</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="96"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                        style=""
+                      ></div>
+                    </div>
+                    <h3>96%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+                <div class="barWrapper">
+                  <span class="progressText">Design principles</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="98"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                        style=""
+                      ></div>
+                    </div>
+                    <h3>98%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+              </div>
+            </div>
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.skill-content-->
+    </section>
+    <!--/.skills-->
+    <!--skills end -->
+    <!--contact start -->
+    <section id="contact" class="contact">
+      <div class="section-heading text-center">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="container">
+        <div class="contact-content">
+          <div class="row">
+            <div class="col-md-offset-1 col-md-5 col-sm-6">
+              <div class="single-contact-box">
+                <div class="contact-adress">
+                  <div class="contact-add-head">
+                    <h3>Daniel Fox</h3>
+                    <p>UI/UX designer</p>
+                  </div>
+                  <div class="contact-add-info">
+                    <div class="single-contact-add-info">
+                      <h3>Phone</h3>
+                      <p>+47 4814 7877</p>
+                    </div>
+                  </div>
+                </div>
+                <!--/.contact-adress-->
+              </div>
+              <!--/.single-contact-box-->
+            </div>
+            <!--/.col-->
+            <div class="col-md-offset-1 col-md-5 col-sm-6">
+              <div class="single-contact-box">
+                <div class="contact-adress">
+                  <div class="single-contact-add-info">
+                    <h3>Email</h3>
+                    <p>
+                      <a href="mailto:danfoxux@gmail.com">danfoxux@gmail.com</a>
+                    </p>
+                  </div>
+                  <div class="single-contact-add-info">
+                    <h3>Website</h3>
+                    <p>www.danielfox.no</p>
+                  </div>
+                </div>
+                <!--/.contact-adress-->
+                <div class="hm-foot-icon">
+                  <ul>
+                    <li>
+                      <a
+                        href="https://www.facebook.com/dan.fox.752"
+                        target="_blank"
+                        aria-label="Facebook profile"
+                        ><i class="fa fa-facebook" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/danielfoxbergen/"
+                        target="_blank"
+                        aria-label="LinkedIn profile"
+                        ><i class="fa fa-linkedin" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/danfox_ux/"
+                        target="_blank"
+                        aria-label="Instagram profile"
+                        ><i class="fa fa-instagram" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <!--/ul-->
+                </div>
+                <!--/.hm-foot-icon-->
+              </div>
+              <!--/.single-contact-box-->
+            </div>
+            <!--/.col-->
+          </div>
+          <!--/.row-->
+        </div>
+        <!--/.contact-content-->
+      </div>
+      <!--/.container-->
+    </section>
+    <!--/.contact-->
+    <!--contact end -->
 
-		</section><!--/.contact-->
-		<!--contact end -->
+    <!--footer-copyright start-->
+    <footer id="footer-copyright" class="footer-copyright">
+      <div class="container">
+        <div class="hm-footer-copyright text-center">
+          <p>
+            <a href="https://www.danielfox.no">DanFox</a>
+          </p>
+          <!--/p-->
+        </div>
+        <!--/.text-center-->
+      </div>
+      <!--/.container-->
 
-		<!--footer-copyright start-->
-		<footer id="footer-copyright" class="footer-copyright">
-			<div class="container">
-				<div class="hm-footer-copyright text-center">
-					<p>
-						<a href="https://www.danielfox.no">DanFox</a>
-					</p><!--/p-->
-				</div><!--/.text-center-->
-			</div><!--/.container-->
+      <div id="scroll-Top">
+        <div class="return-to-top">
+          <i class="fa fa-angle-up" id="scroll-top"></i>
+        </div>
+      </div>
+      <!--/.scroll-Top-->
+    </footer>
+    <!--/.footer-copyright-->
+    <!--footer-copyright end-->
 
-			<div id="scroll-Top">
-				<div class="return-to-top">
-					<i class="fa fa-angle-up " id="scroll-top" ></i>
-				</div>
-				
-			</div><!--/.scroll-Top-->
-			
-        </footer><!--/.footer-copyright-->
-		<!--footer-copyright end-->
-		
-		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+    <!-- Include all js compiled plugins (below), or include individual files as needed -->
 
-		<script src="assets/js/jquery.js"></script>
-        
-        <!--modernizr.min.js-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-		
-		<!--bootstrap.min.js-->
-        <script src="assets/js/bootstrap.min.js"></script>
-		
-		<!-- bootsnav js -->
-		<script src="assets/js/bootsnav.js"></script>
-		
-		<!-- jquery.sticky.js -->
-		<script src="assets/js/jquery.sticky.js"></script>
-		
-		<!-- for progress bar start-->
+    <script src="assets/js/jquery.js"></script>
 
-		<!-- progressbar js -->
-		<script src="assets/js/progressbar.js"></script>
+    <!--modernizr.min.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
-		<!-- appear js -->
-		<script src="assets/js/jquery.appear.js"></script>
+    <!--bootstrap.min.js-->
+    <script src="assets/js/bootstrap.min.js"></script>
 
-		<!-- for progress bar end -->
+    <!-- bootsnav js -->
+    <script src="assets/js/bootsnav.js"></script>
 
-		<!--owl.carousel.js-->
-        <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- jquery.sticky.js -->
+    <script src="assets/js/jquery.sticky.js"></script>
 
+    <!-- for progress bar start-->
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-		
-        
-        <!--Custom JS-->
-        <script src="assets/js/custom.js"></script>
-        
-    </body>
-	
+    <!-- progressbar js -->
+    <script src="assets/js/progressbar.js"></script>
+
+    <!-- appear js -->
+    <script src="assets/js/jquery.appear.js"></script>
+
+    <!-- for progress bar end -->
+
+    <!--owl.carousel.js-->
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+    <!--Custom JS-->
+    <script src="assets/js/custom.js"></script>
+  </body>
 </html>

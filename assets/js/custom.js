@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(function(){
 	"use strict";
     
         /*==================================
@@ -42,7 +42,7 @@ $(document).ready(function(){
 		
 		//=============
 
-		$('li.smooth-menu a').bind("click", function(event) {
+		$('li.smooth-menu a').on("click", function(event) {
 			event.preventDefault();
 			var anchor = $(this);
 			$('html, body').stop().animate({
@@ -113,12 +113,12 @@ $(document).ready(function(){
 
     // 5. welcome animation support
 
-        $(window).load(function(){
+        $(window).on('load', function(){
         	$(".header-text h2,.header-text p").removeClass("animated fadeInUp").css({'opacity':'0'});
             $(".header-text a").removeClass("animated fadeInDown").css({'opacity':'0'});
         });
 
-        $(window).load(function(){
+        $(window).on('load', function(){
         	$(".header-text h2,.header-text p").addClass("animated fadeInUp").css({'opacity':'0'});
             $(".header-text a").addClass("animated fadeInDown").css({'opacity':'0'});
         });
